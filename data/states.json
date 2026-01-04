@@ -1,0 +1,72 @@
+[
+  {
+    "slug": "california",
+    "name": "California",
+    "ageRequirement": 18,
+    "cardFee": 100,
+    "description": "California's medical card program allows qualified patients to access medical cannabis for approved conditions. The program requires a physician's recommendation and annual renewal."
+  },
+  {
+    "slug": "new-york",
+    "name": "New York",
+    "ageRequirement": 21,
+    "cardFee": 50,
+    "description": "New York offers a comprehensive medical marijuana program with various qualifying conditions. Patients must register with the state and receive certification from a registered practitioner."
+  },
+  {
+    "slug": "florida",
+    "name": "Florida",
+    "ageRequirement": 18,
+    "cardFee": 75,
+    "description": "Florida's medical cannabis program serves patients with debilitating medical conditions. The state requires registration through the Office of Medical Marijuana Use."
+  },
+  {
+    "slug": "texas",
+    "name": "Texas",
+    "ageRequirement": 18,
+    "cardFee": 10,
+    "description": "Texas has a limited Compassionate Use Program for patients with specific qualifying conditions. The program has strict requirements and limited qualifying conditions."
+  },
+  {
+    "slug": "colorado",
+    "name": "Colorado",
+    "ageRequirement": 18,
+    "cardFee": 25,
+    "description": "Colorado was one of the first states to establish a medical marijuana program. The state offers a well-established system with protections for qualified patients."
+  },
+  {
+    "slug": "washington",
+    "name": "Washington",
+    "ageRequirement": 21,
+    "cardFee": 1,
+    "description": "Washington State provides a medical marijuana authorization database for qualifying patients. The program offers certain legal protections and tax exemptions."
+  },
+  {
+    "slug": "arizona",
+    "name": "Arizona",
+    "ageRequirement": 18,
+    "cardFee": 150,
+    "description": "Arizona's medical marijuana program serves patients with qualifying debilitating medical conditions. The state maintains a confidential registry of medical marijuana cardholders."
+  },
+  {
+    "slug": "massachusetts",
+    "name": "Massachusetts",
+    "ageRequirement": 21,
+    "cardFee": 50,
+    "description": "Massachusetts offers a medical use of marijuana program for patients with qualifying conditions. The program requires certification from a registered healthcare provider."
+  },
+  {
+    "slug": "michigan",
+    "name": "Michigan",
+    "ageRequirement": 18,
+    "cardFee": 40,
+    "description": "Michigan's medical marihuana program protects qualified patients who use marijuana for medical purposes. The state issues registry identification cards to approved patients."
+  },
+  {
+    "slug": "oregon",
+    "name": "Oregon",
+    "ageRequirement": 18,
+    "cardFee": 200,
+    "description": "Oregon Medical Marijuana Program (OMMP) allows people with certain medical conditions to use marijuana for medical purposes. The program requires physician approval and state registration."
+  }
+]

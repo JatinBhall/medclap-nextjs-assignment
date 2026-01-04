@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { Navbar } from "./components/navbar";
+import Footer from "./components/footer";
+import "react-toastify/dist/ReactToastify.css";
+import { ToastContainer } from "react-toastify";
+import SubmittedFormsContextProvider from "./context/submittedFormsContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,7 +32,20 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        {children}
+        <SubmittedFormsContextProvider>
+          <Navbar />
+          {children}
+          <Footer />
+        </SubmittedFormsContextProvider>
+        <ToastContainer
+          position="top-right"
+          autoClose={3000}
+          hideProgressBar={false}
+          newestOnTop
+          closeOnClick
+          pauseOnHover
+          draggable
+        />
       </body>
     </html>
   );
