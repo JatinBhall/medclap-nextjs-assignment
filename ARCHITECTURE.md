@@ -5,6 +5,7 @@
 This application is built with Next.js App Router. The architecture follows a component-based approach with clear separation of concerns.
 
 ### Directory Layout
+```
 medical-card-checker/
 ├── data/
 │   └── states.json                             # State configuration data
@@ -34,7 +35,7 @@ medical-card-checker/
 |   |   ├── admin/
 |   |   |   └── submission/
 │   │   │      └── page.tsx                     # Submissions dashboard
-
+```
 ## Data Flow
 
 ### 1. User Journey Flow
